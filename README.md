@@ -2,6 +2,8 @@
 
 This project implements a real-time Structure from Motion (SfM) / SLAM (Simultaneous Localization and Mapping) system using an Intel RealSense D400 series camera. It captures RGB and depth data, performs visual odometry to estimate camera pose, and reconstructs a 3D point cloud of the environment. This version utilizes OpenCV's `RgbdOdometry` for pose estimation.
 
+[Demo video](https://www.youtube.com/watch?v=fgqBE9i2YCI)
+
 ## Features
 
 *   **Real-time Camera Pose Estimation**: Tracks the 6DoF (Degrees of Freedom) pose of the RealSense camera.
